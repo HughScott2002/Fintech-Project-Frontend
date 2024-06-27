@@ -1,6 +1,7 @@
 export const appName = "Horizon";
 export const appShortName = "Horizon";
 export const appDescription = `${appName} is a fintech that provides a seamless experience for managing your finances.`;
+export const emailTest = "hughrscott2002@gmail.com";
 
 export const sidebarLinks = [
   {

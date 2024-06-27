@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 import { appName, appDescription } from "@/constants";
-import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 // TODO: Download and import IBM Plex Serif font
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
   title: appName,
   description: appDescription,
   icons: {
-    icon: "@/public/icons/logo.svg",
+    icon: "/icons/logo.svg",
   },
 };
 

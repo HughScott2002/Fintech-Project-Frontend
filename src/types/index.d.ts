@@ -7,7 +7,7 @@ declare type SearchParamProps = {
 
 // ========================================
 
-declare type SignUpParams = {
+declare type RegisterParams = {
   firstName: string;
   lastName: string;
   address1: string;
@@ -188,7 +188,7 @@ declare interface PlaidLinkProps {
 // };
 
 declare interface AuthFormProps {
-  type: "sign-in" | "sign-up";
+  type: "login" | "register";
 }
 
 declare interface BankDropdownProps {
@@ -202,7 +202,7 @@ declare interface BankTabItemProps {
   appwriteItemId?: string;
 }
 
-declare interface TotlaBalanceBoxProps {
+declare interface TotalBalanceBoxProps {
   accounts: Account[];
   totalBanks: number;
   totalCurrentBalance: number;
@@ -292,7 +292,7 @@ declare interface getTransactionsByBankIdProps {
   bankId: string;
 }
 
-declare interface signInProps {
+declare interface LoginProps {
   email: string;
   password: string;
 }
